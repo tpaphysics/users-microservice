@@ -37,6 +37,12 @@ $ yarn db:down
 
 ```
 
+## Iniciar
+
+```bash
+yarn start:dev
+```
+
 ## Prisma Studio
 
 No diretório user-engine
