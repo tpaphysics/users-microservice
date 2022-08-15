@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Prisma" />
   
 ##  Descrição
-Microserviço de usuários construído com framework [Nestjs](https://nestjs.com), [Prisma ORM](https://www.prisma.io/), [PostgresQL](https://www.postgresql.org/), [Docker Compose](https://docs.docker.com/compose/).
+Microserviço de usuários construído com framework [Nestjs](https://nestjs.com). Funciona juntamente com a [api-gateway](https://github.com/tpaphysics/api-gateway).
 
 ## Arquitetura
 
@@ -53,13 +53,13 @@ yarn prisma studio
 
 ## **💥 Considerações**
 
-Existem muitas vantagens na utilização do NestJs para criação de microserviços pelo fato dele ser simples de usar e também por respeitar os principios do <strong>SOLID</strong>. Ao digitar o comando:
+Existem muitas vantagens na utilização do NestJs para criação de microserviços pelo fato dele ser simples de usar e também por respeitar os principios do <strong>SOLID</strong>. Ao digitar o comando no terminal:
 
 ```bash
 nest g resource users
 ```
 
-É criado um CRUD de microserviços de usuários com Controllers, Services, Modules, Entities, Dtos e metodos create, findAll, findOne, update, delete. Desta forma é facil e rápido a contrução de sistemas, escalabilidade do projeto e o trabalho em grupo.
+O NestJs cria o CRUD de microserviços de usuários com os Controllers, Services, Modules, Entities, Dtos e metodos respectivos. Desta forma é facil e rápido a contrução de sistemas, escalabilidade do projeto e o trabalho em grupo.
 
 ## **👨‍🚀 Autor**
 
