@@ -1,4 +1,4 @@
-## Microserviço de usuário com NestJs e Apache Kafka
+## Exemplo de um microsserviço com NestJs e Apache Kafka
 
 <p align="center">
 <img src="https://img.shields.io/badge/yarn-%232C8EBB.svg?style=for-the-badge&logo=yarn&logoColor=white" alt="yarn" />
@@ -17,7 +17,7 @@
 <img src="https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white" alt="Prisma" />
   
 ##  Descrição
-Microserviço de usuários construído com framework [Nestjs](https://nestjs.com). Funciona juntamente com a [api-gateway](https://github.com/tpaphysics/api-gateway).
+Exemplo de microsserviço construído com framework [Nestjs](https://nestjs.com). Funciona juntamente com a [api-gateway](https://github.com/tpaphysics/api-gateway).
 
 ## Arquitetura
 
@@ -50,16 +50,6 @@ No diretório user-engine
 ```bash
 yarn prisma studio
 ```
-
-## **💥 Considerações**
-
-Existem muitas vantagens na utilização do NestJs para criação de microserviços pelo fato dele ser simples de usar e também por respeitar os principios do <strong>SOLID</strong>. Ao digitar o comando no terminal:
-
-```bash
-nest g resource users
-```
-
-O NestJs cria o CRUD de microserviços de usuários com os Controllers, Services, Modules, Entities, Dtos e metodos respectivos. Desta forma é facil e rápido a contrução de sistemas, escalabilidade do projeto e o trabalho em grupo.
 
 ## **👨‍🚀 Autor**
 
